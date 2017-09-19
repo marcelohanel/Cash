@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtID"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome do Produto"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/txtGrupo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grupo"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/txtReferencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Referencia"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/txtFornecedor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fornecedor"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/txtEstoque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estoque"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/txtCompra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valor Compra"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/txtVenda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valor Venda"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/txtMargem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Margem"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/vw_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="@color/divider" />
+
+</LinearLayout>

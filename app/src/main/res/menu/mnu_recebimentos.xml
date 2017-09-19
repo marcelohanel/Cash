@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mnuPesquisar"
+        android:icon="@drawable/ic_magnify_light"
+        android:title="@string/p_001"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mnuOrdem"
+        android:icon="@drawable/ic_sort_light"
+        android:title="@string/o_004"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mnuAlterar"
+        android:title="@string/a_001"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnuExcluir"
+        android:title="@string/e_005"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnuListagem"
+        android:title="@string/l_007"
+        app:showAsAction="never" />
+
+</menu>

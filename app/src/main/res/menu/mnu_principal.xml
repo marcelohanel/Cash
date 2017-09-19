@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mnuVisao"
+        android:icon="@drawable/ic_presentation_play_light"
+        android:title="@string/v_020"
+        app:showAsAction="ifRoom" />
+
+</menu>

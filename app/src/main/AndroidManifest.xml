@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mah.com.br.cash">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- Some Chromebooks don't support touch. Although not essential,
+             it's a good idea to explicitly include this declaration. -->
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Forms.frmPrincipal"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Forms.frmClientes"
+            android:label="@string/frm_clientes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmFornecedores"
+            android:label="@string/frm_fornecedores"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmManutencaoClientes"
+            android:label="@string/frm_manutencao_clientes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmManutencaoFornecedores"
+            android:label="@string/frm_manutencao_fornecedores"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmGruposProduto"
+            android:label="@string/frm_grupos_produto"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmManutencaoGruposProduto"
+            android:label="@string/frm_manutencao_grupos_produto"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmProdutos"
+            android:label="@string/frm_produtos"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmManutencaoProdutos"
+            android:label="@string/frm_manutencao_produtos"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmCompras"
+            android:label="@string/frm_compras"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmManutencaoCompras"
+            android:label="@string/frm_manutencao_compras"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmCompraItens"
+            android:label="@string/frm_compra_itens"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmManutencaoCompraItens"
+            android:label="@string/frm_manutencao_compra_itens"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmCompraPagamentos"
+            android:label="@string/frm_compra_pagamentos"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmManutencaoCompraPagamentos"
+            android:label="@string/frm_manutencao_compra_pagamentos"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmVendas"
+            android:label="@string/frm_vendas"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmManutencaoVendas"
+            android:label="@string/frm_manutencao_vendas"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmVendaItens"
+            android:label="@string/frm_venda_itens"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmManutencaoVendaItens"
+            android:label="@string/frm_manutencao_venda_itens"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmVendaRecebimentos"
+            android:label="@string/frm_venda_recebimentos"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmManutencaoVendaRecebimentos"
+            android:label="@string/frm_manutencao_venda_recebimentos"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmRecebimentos"
+            android:label="@string/frm_recebimentos"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmManutencaoRecebimentos"
+            android:label="@string/frm_manutencao_recebimentos"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmPagamentos"
+            android:label="@string/frm_pagamentos"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmManutencaoPagamentos"
+            android:label="@string/frm_manutencao_pagamentos"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forms.frmConfiguracoes"
+            android:label="@string/frm_configuracoes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+    </application>
+
+</manifest>

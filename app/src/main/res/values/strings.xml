@@ -1,0 +1,327 @@
+<resources>
+    <string name="app_name" translatable="false">Cash</string>
+    <string name="contato" translatable="false">mm.mobilebr@gmail.com</string>
+    <string name="copyright" translatable="false">MM Mobile</string>
+
+    <string name="frm_clientes">Clientes</string>
+    <string name="frm_manutencao_clientes">Manutenção Cliente</string>
+    <string name="frm_grupos_produto">Grupos de Produto</string>
+    <string name="frm_manutencao_grupos_produto">Manutenção Grupos de Produto</string>
+    <string name="frm_produtos">Produtos</string>
+    <string name="frm_manutencao_produtos">Manutenção Produto</string>
+    <string name="frm_fornecedores">Fornecedores</string>
+    <string name="frm_manutencao_fornecedores">Manutenção Fornecedor</string>
+    <string name="frm_compras">Compras</string>
+    <string name="frm_manutencao_compras">Manutenção Compra</string>
+    <string name="frm_compra_itens">Itens</string>
+    <string name="frm_manutencao_compra_itens">Manutenção Itens</string>
+    <string name="frm_compra_pagamentos">Pagamentos</string>
+    <string name="frm_manutencao_compra_pagamentos">Manutenção Pagamento</string>
+    <string name="frm_vendas">Vendas</string>
+    <string name="frm_manutencao_vendas">Manutenção Venda</string>
+    <string name="frm_venda_itens">Itens</string>
+    <string name="frm_manutencao_venda_itens">Manutenção Itens</string>
+    <string name="frm_venda_recebimentos">Recebimentos</string>
+    <string name="frm_manutencao_venda_recebimentos">Manutenção Recebimento</string>
+    <string name="frm_recebimentos">Recebimentos</string>
+    <string name="frm_manutencao_recebimentos">Manutenção Recebimento</string>
+    <string name="frm_pagamentos">Pagamentos</string>
+    <string name="frm_manutencao_pagamentos">Manutenção Pagamento</string>
+    <string name="frm_configuracoes">Configurações</string>
+
+    <string name="a_001">Alterar</string>
+    <string name="a_002">Alteração de Cliente</string>
+    <string name="a_003">Alteração de Grupo</string>
+    <string name="a_004">Aviso</string>
+    <string name="a_005">Aguarde</string>
+    <string name="a_006">Alteração de Produto</string>
+    <string name="a_007">Alteração de Fornecedor</string>
+    <string name="a_008">Alteração de Compra</string>
+    <string name="a_009">Ano</string>
+    <string name="a_010">Anos</string>
+    <string name="a_011">Alteração de Item</string>
+    <string name="a_012">Alteração de Pagamento</string>
+    <string name="a_013">Alteração de Venda</string>
+    <string name="a_014">Alteração de Recebimento</string>
+    <string name="a_015">Alteração de Pagamento</string>
+    <string name="a_016">A Receber Por Cliente</string>
+    <string name="a_017">A Pagar Por Fornecedor</string>
+    <string name="a_018">A Pagar x A Receber</string>
+    <string name="a_019">A Pagar x Pago</string>
+    <string name="a_020">A Receber x Recebido</string>
+    <string name="a_021">A Pagar</string>
+    <string name="a_022">A Receber</string>
+    <string name="a_023">Aplicativo</string>
+    <string name="a_024">Arquivo de backup @1 não encontrado !</string>
+    <string name="a_025">A Pagar para</string>
+    <string name="a_026">A Receber de</string>
+
+    <string name="b_001" translatable="false">backup.json</string>
+    <string name="b_002">Backup realizado com sucesso em:</string>
+    <string name="b_003">Backup da Base de Dados</string>
+    <string name="b_004">Backup restaurado com sucesso !</string>
+
+    <string name="c_001">Cancelar</string>
+    <string name="c_002">Clientes</string>
+    <string name="c_003">Cliente @1 alterado com sucesso !</string>
+    <string name="c_004">Cliente @1 incluído com sucesso !</string>
+    <string name="c_005">Cliente @1 removido com sucesso !</string>
+    <string name="c_006">Compartilhar Relatório</string>
+    <string name="c_007">Configurações</string>
+    <string name="c_008">Confirmar</string>
+    <string name="c_009" translatable="false">clientes.html</string>
+    <string name="c_010">Compras</string>
+    <string name="c_011">Cliente</string>
+    <string name="c_012">Compra @1 incluída com sucesso !</string>
+    <string name="c_013">Compra @1 alterada com sucesso !</string>
+    <string name="c_014">Compra @1 removida com sucesso !</string>
+    <string name="c_015" translatable="false">compras.html</string>
+    <string name="c_016">Compartilhar Backup</string>
+    <string name="c_017">Compras x Vendas</string>
+    <string name="c_018">Compras Por Fornecedor</string>
+    <string name="c_019">Compras Por Produto Valor</string>
+    <string name="c_020">Compras Por Produto Qtde</string>
+    <string name="c_021" translatable="false">Copyright</string>
+    <string name="c_022">Contato</string>
+
+    <string name="d_001">Data de Cadastro</string>
+    <string name="d_002">Deseja realmente excluir o cliente @1 ?</string>
+    <string name="d_003">Deseja realmente excluir o grupo @1 ?</string>
+    <string name="d_004">Deseja realmente excluir o produto @1 ?</string>
+    <string name="d_005">Deseja realmente excluir o fornecedor @1 ?</string>
+    <string name="d_006">Data da Compra</string>
+    <string name="d_007">Deseja realmente excluir a compra @1 ?</string>
+    <string name="d_008">Deseja realmente excluir o item @1 ?</string>
+    <string name="d_009">Data do Pagamento</string>
+    <string name="d_010">Deseja realmente excluir o pagamento @1 ?</string>
+    <string name="d_011">Detalhamento da Compra</string>
+    <string name="d_012">Detalhamento dos Itens</string>
+    <string name="d_013">Detalhamento dos Pagamentos</string>
+    <string name="d_014">Detalhamento da Venda</string>
+    <string name="d_015">Data do Recebimento</string>
+    <string name="d_016">Data da Venda</string>
+    <string name="d_017">Detalhamento dos Recebimentos</string>
+    <string name="d_018">Deseja realmente excluir a venda @1 ?</string>
+    <string name="d_019">Deseja realmente excluir o recebimento @1 ?</string>
+    <string name="d_020">Data do Pagamento</string>
+    <string name="d_021">Deseja realmente excluir o pagamento @1 ?</string>
+    <string name="d_022">Deseja compartilhar o mesmo em outros aplicativos ?</string>
+    <string name="d_023">Demais Clientes</string>
+    <string name="d_024">Demais Fornecedores</string>
+    <string name="d_025">Demais Produtos</string>
+    <string name="d_026">Deseja realmente realizar o backup da base de dados ?</string>
+    <string name="d_027">Deseja realmente restaurar o backup da base de dados ?</string>
+    <string name="d_028">Diário</string>
+    <string name="d_029">Data</string>
+
+    <string name="e_001">É necessário selecionar um cliente para realizar esta operação.</string>
+    <string name="e_002">É necessário selecionar um grupo para realizar esta operação.</string>
+    <string name="e_003" translatable="false">Email</string>
+    <string name="e_004">Endereço</string>
+    <string name="e_005">Excluir</string>
+    <string name="e_006">Erro</string>
+    <string name="e_007">Estoque</string>
+    <string name="e_008">É necessário selecionar um produto para realizar esta operação.</string>
+    <string name="e_009">É necessário selecionar um fornecedor para realizar esta operação.</string>
+    <string name="e_010">É necessário selecionar uma compra para realizar esta operação.</string>
+    <string name="e_011">É necessário selecionar um item para realizar esta operação.</string>
+    <string name="e_012">É necessário selecionar um pagamento para realizar esta operação.</string>
+    <string name="e_013">É necessário selecionar um recebimento para realizar esta operação.</string>
+    <string name="e_014">É necessário selecionar uma venda para realizar esta operação.</string>
+    <string name="e_015">É necessário selecionar um pagamento para realizar esta operação.</string>
+
+    <string name="f_001">Fone</string>
+    <string name="f_002">Fone 1</string>
+    <string name="f_003">Fone 2</string>
+    <string name="f_004">Fornecedor</string>
+    <string name="f_005">Fornecedores</string>
+    <string name="f_006">Fornecedor @1 incluído com sucesso !</string>
+    <string name="f_007">Fornecedor @1 alterado com sucesso !</string>
+    <string name="f_008">Fornecedor @1 removido com sucesso !</string>
+    <string name="f_009" translatable="false">fornecedores.html</string>
+    <string name="f_010">Fornecedor @1 não encontrado !</string>
+    <string name="f_011">Fazendo Backup da Base de Dados !</string>
+
+    <string name="g_001">Grupos de Produto</string>
+    <string name="g_002">Grupo de Produtos @1 alterado com sucesso !</string>
+    <string name="g_003">Grupo de Produtos @1 incluído com sucesso !</string>
+    <string name="g_004">Grupo de Produtos @1 removido com sucesso !</string>
+    <string name="g_005" translatable="false">grupos_produto.html</string>
+    <string name="g_006">Gerando relatório</string>
+    <string name="g_007">Grupo de Produto</string>
+    <string name="g_008">Grupo de Produto @1 não encontrado !</string>
+
+    <string name="i_001">Inclusão de Cliente</string>
+    <string name="i_002">Inclusão de Grupo</string>
+    <string name="i_003">Informe a data do cadastro !</string>
+    <string name="i_004">Informe o nome do cliente !</string>
+    <string name="i_005">Informe o nome do grupo !</string>
+    <string name="i_006">Inclusão de Produto</string>
+    <string name="i_007">Informe o nome do produto !</string>
+    <string name="i_008">Informe o grupo do produto !</string>
+    <string name="i_009">Informe o valor de venda !</string>
+    <string name="i_010">Informe o valor de compra !</string>
+    <string name="i_011">Informe a unidade de medida !</string>
+    <string name="i_012">Inclusão de Fornecedor</string>
+    <string name="i_013">Informe o nome do fornecedor !</string>
+    <string name="i_014">Identificação</string>
+    <string name="i_015">Inclusão de Compra</string>
+    <string name="i_016">Informe a identificação da compra !</string>
+    <string name="i_017">Informe a data da compra !</string>
+    <string name="i_018">Informe o fornecedor !</string>
+    <string name="i_019">Item @1 incluído com sucesso !</string>
+    <string name="i_020">Item @1 alterado com sucesso !</string>
+    <string name="i_021">Item @1 removido com sucesso !</string>
+    <string name="i_022">Inclusão de Item</string>
+    <string name="i_023">Informe a quantidade de itens !</string>
+    <string name="i_024">Informe o valor unitário do item !</string>
+    <string name="i_025">Itens</string>
+    <string name="i_026">Inclusão de Pagamento</string>
+    <string name="i_027">Informe a data do pagamento !</string>
+    <string name="i_028">Informe o valor do pagamento !</string>
+    <string name="i_029">Informações da Compra</string>
+    <string name="i_030">Informações da Venda</string>
+    <string name="i_031">Inclusão de Venda</string>
+    <string name="i_032">Informe a identificação da venda !</string>
+    <string name="i_033">Informe a data da venda !</string>
+    <string name="i_034">Informe o cliente !</string>
+    <string name="i_035">Inclusão de Recebimento</string>
+    <string name="i_036">Informe a data do recebimento !</string>
+    <string name="i_037">Informe o valor do recebimento !</string>
+    <string name="i_038">Inclusão de Pagamento</string>
+
+    <string name="l_001">Listagem de Clientes</string>
+    <string name="l_002">Listagem de Grupos de Produto</string>
+    <string name="l_003">Listagem de Produtos</string>
+    <string name="l_004">Listagem de Fornecedores</string>
+    <string name="l_005">Listagem de Compras</string>
+    <string name="l_006">Listagem de Vendas</string>
+    <string name="l_007">Listagem de Recebimentos</string>
+    <string name="l_008">Listagem de Pagamentos</string>
+
+    <string name="m_001">Movimentações de Estoque</string>
+    <string name="m_002">Margem de Lucro</string>
+    <string name="m_003">Mês</string>
+    <string name="m_004">Meses</string>
+    <string name="m_005">Maiores Clientes Vendas</string>
+    <string name="m_006">Maiores Clientes a Receber</string>
+    <string name="m_007">Maiores Clientes Recebido</string>
+    <string name="m_008">Maiores Fornecedores Compras</string>
+    <string name="m_009">Maiores Fornecedores a Pagar</string>
+    <string name="m_010">Maiores Fornecedores Pago</string>
+    <string name="m_011">Medida</string>
+
+    <string name="n_001">Não foi possível gerar o arquivo de dados !</string>
+    <string name="n_002">Nome</string>
+    <string name="n_003">Não foi inserir o registro na base de dados !</string>
+    <string name="n_004">Não foi atualizar o registro na base de dados !</string>
+    <string name="n_005">Não foi excluir o registro na base de dados !</string>
+    <string name="n_006">Não foi possível gerar o backup da base de dados !</string>
+    <string name="n_007">Não foi possível restaurar o backup da base de dados !</string>
+
+    <string name="o_001">Observações</string>
+    <string name="o_002" translatable="false">OK</string>
+    <string name="o_003">Ordem</string>
+    <string name="o_004">Ordenar</string>
+    <string name="o_005">O grupo de produto está sendo utilizado nos produtos !</string>
+    <string name="o_006">Opções</string>
+
+    <string name="p_001">Pesquisar</string>
+    <string name="p_002">Produtos</string>
+    <string name="p_003">Produto @1 incluído com sucesso !</string>
+    <string name="p_004">Produto @1 alterado com sucesso !</string>
+    <string name="p_005">Produto @1 removido com sucesso !</string>
+    <string name="p_006">Produto</string>
+    <string name="p_007" translatable="false">produtos.html</string>
+    <string name="p_008">Pagamentos</string>
+    <string name="p_009">Pagamento @1 incluído com sucesso !</string>
+    <string name="p_010">Pagamento @1 alterado com sucesso !</string>
+    <string name="p_011">Pagamento @1 removido com sucesso !</string>
+    <string name="p_012" translatable="false">pagamentos.html</string>
+    <string name="p_014">Produtos Mais Comprados</string>
+    <string name="p_015">Produtos Mais Vendidos</string>
+    <string name="p_016">Pago x Recebido</string>
+    <string name="p_018">Pago</string>
+    <string name="p_019" translatable="false">Perc.</string>
+    <string name="p_020">Pago Por Fornecedor</string>
+    <string name="p_021">Produtos Mais Comprados Valor</string>
+    <string name="p_022">Produtos Mais Vendidos Valor</string>
+    <string name="p_023">Produtos Mais Comprados Qtde</string>
+    <string name="p_024">Produtos Mais Vendidos Qtde</string>
+    <string name="p_025">Pago para</string>
+
+    <string name="q_001">Quantidade</string>
+    <string name="q_002">Quantidade Itens</string>
+    <string name="q_003">Qtde</string>
+
+    <string name="r_001">Relatório</string>
+    <string name="r_002">Referência</string>
+    <string name="r_003">Recebimentos</string>
+    <string name="r_004">Recebimento @1 incluído com sucesso !</string>
+    <string name="r_005">Recebimento @1 alterado com sucesso !</string>
+    <string name="r_006">Recebimento @1 removido com sucesso !</string>
+    <string name="r_007" translatable="false">recebimentos.html</string>
+    <string name="r_008">Realizar Backup da Base de Dados</string>
+    <string name="r_009">Recebido</string>
+    <string name="r_010">Recebido Por Cliente</string>
+    <string name="r_011">Restaurar Backup da Base de Dados</string>
+    <string name="r_012">Restaurando o Backup da Base de Dados !</string>
+    <string name="r_013">Recebido de</string>
+
+    <string name="s_001">Salvar</string>
+    <string name="s_002">Saldo a Receber</string>
+    <string name="s_003">Segue em anexo o relatório de listagem de clientes.</string>
+    <string name="s_004">Segue em anexo o relatório de listagem de grupos de produto.</string>
+    <string name="s_005">Segue em anexo o relatório de listagem de produtos.</string>
+    <string name="s_006">Saldo a Pagar</string>
+    <string name="s_007">Segue em anexo o relatório de listagem de fornecedores.</string>
+    <string name="s_008">Segue em anexo o relatório de listagem de compras.</string>
+    <string name="s_009">Selecione um item para concluir esta operação !</string>
+    <string name="s_010">Segue em anexo o relatório de listagem de vendas.</string>
+    <string name="s_011">Segue em anexo o relatório de listagem de recebimentos.</string>
+    <string name="s_012">Segue em anexo o relatório de listagem de pagamentos.</string>
+    <string name="s_013">Segue em anexo o backup da base de dados.</string>
+    <string name="s_014">Sem dados para mostrar.</string>
+    <string name="s_015">Saldo A Pagar Fornecedores</string>
+    <string name="s_016">Saldo A Receber Clientes</string>
+
+    <string name="t_001">Telefone 1</string>
+    <string name="t_002">Telefone 2</string>
+    <string name="t_003">Todos</string>
+
+    <string name="u_001">Unidade Medida</string>
+
+    <string name="v_001">Valor da Compra</string>
+    <string name="v_002">Valor de Venda</string>
+    <string name="v_003">Valor de Compra</string>
+    <string name="v_005">Vendas</string>
+    <string name="v_006">Valor Unitário</string>
+    <string name="v_007">Valor Total</string>
+    <string name="v_008">Valor Parcela</string>
+    <string name="v_009">Valor</string>
+    <string name="v_010">Valor dos Pagamentos</string>
+    <string name="v_011">Venda @1 incluída com sucesso !</string>
+    <string name="v_012">Venda @1 alterada com sucesso !</string>
+    <string name="v_013">Venda @1 removida com sucesso !</string>
+    <string name="v_014">Valor dos Recebimentos</string>
+    <string name="v_015" translatable="false">vendas.html</string>
+    <string name="v_016">Valor da Venda</string>
+    <string name="v_017">Valor do Recebimento</string>
+    <string name="v_018">Valor do Pagamento</string>
+    <string name="v_019">Visão Padrão</string>
+    <string name="v_020">Visões</string>
+    <string name="v_021">Vendas Por Cliente</string>
+    <string name="v_022">Visão</string>
+    <string name="v_023">Vendas Por Produto Valor</string>
+    <string name="v_024">Vendas Por Produto Qtde</string>
+    <string name="v_025">Versão</string>
+    <string name="v_026">Valor Estoque Compra</string>
+    <string name="v_027">Valor Estoque Venda</string>
+
+    <string name="_001" translatable="false">:</string>
+    <string name="_002">*** TOTAL ***</string>
+    <string name="_003">Aberto</string>
+    <string name="_004">Fechado</string>
+    <string name="_005" translatable="false">%</string>
+
+</resources>
